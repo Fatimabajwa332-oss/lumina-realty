@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Experts — Lumina Realty</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/agents.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">Lumina Realty</div>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="agents.html" class="active">Agents</a>
+        <a href="collections.html">Collections</a>
+      </nav>
+      <div class="nav-right">
+        <a href="login.html" class="btn btn-primary" id="signin-btn">Sign In</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="agents-hero">
+    <div class="container">
+      <span class="section-eyebrow">Expert Guidance</span>
+      <h1>Our Experts: Precision in<br>Local Knowledge.</h1>
+      <p>Connect with the most sophisticated network of real estate professionals dedicated to finding your architectural masterpiece.</p>
+    </div>
+  </section>
+
+  <!-- ===== Agent Cards ===== -->
+  <section class="agents-grid-section">
+    <div class="container agents-grid">
+
+      <div class="agent-profile-card">
+        <div class="agent-photo" style="background-image: url('images/elena-vance.jpg'), linear-gradient(160deg,#d9d3c4,#a89d84); background-size: cover; background-position: center;"></div>
+        <h3>Elena Vance</h3>
+        <span class="agent-role">DIRECTOR OF PRIVATE SALES</span>
+        <p>Specializing in mid-century modern restorations and coastal estates in the Greater Bay area.</p>
+        <a href="portfolio.html?id=1" class="btn btn-outline btn-block">View Portfolio</a>
+      </div>
+
+      <div class="agent-profile-card">
+        <div class="agent-photo" style="background-image: url('images/julian-thorne.jpg'), linear-gradient(160deg,#e3c9a8,#a97c4f); background-size: cover; background-position: center;"></div>
+        <h3>Julian Thorne</h3>
+        <span class="agent-role">LUXURY PORTFOLIO ADVISOR</span>
+        <p>Expert in sustainable architectural designs and LEED-certified urban penthouses.</p>
+        <a href="portfolio.html?id=2" class="btn btn-outline btn-block">View Portfolio</a>
+      </div>
+
+      <div class="agent-profile-card">
+        <div class="agent-photo" style="background-image: url('images/sienna-wu.jpg'), linear-gradient(160deg,#cdd6dc,#7c8b95); background-size: cover; background-position: center;"></div>
+        <h3>Sienna Wu</h3>
+        <span class="agent-role">NEW DEVELOPMENT SPECIALIST</span>
+        <p>Focused on high-growth luxury residential projects and off-market investment opportunities.</p>
+        <a href="portfolio.html?id=3" class="btn btn-outline btn-block">View Portfolio</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== General Inquiry ===== -->
+  <section class="inquiry-section">
+    <div class="container inquiry-layout">
+      <div class="inquiry-info">
+        <h2>General Inquiry</h2>
+        <p>Have a specific request or looking to start a partnership? Our headquarters team is available to assist with global inquiries.</p>
+
+        <div class="info-item">
+          <span class="info-icon">📍</span>
+          <div>
+            <strong>Main Office</strong>
+            <p>405 Park Avenue, 12th Floor<br>New York, NY 10022</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="info-icon">✉</span>
+          <div>
+            <strong>Email Us</strong>
+            <p>concierge@luminarealty.com</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="inquiry-form">
+        <div class="form-row">
+          <div>
+            <label for="fn">First Name</label>
+            <input type="text" id="fn" placeholder="John">
+          </div>
+          <div>
+            <label for="ln">Last Name</label>
+            <input type="text" id="ln" placeholder="Doe">
+          </div>
+        </div>
+        <label for="em">Email Address</label>
+        <input type="email" id="em" placeholder="john@example.com">
+        <label for="ms">Message</label>
+        <textarea id="ms" rows="4" placeholder="How can we assist you today?"></textarea>
+        <button type="submit" class="btn btn-primary">Send Inquiry ▶</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Office Map ===== -->
+  <section class="office-map-section">
+    <div class="map-visual">
+      <iframe
+        class="map-iframe"
+        src="https://maps.google.com/maps?q=405+Park+Avenue+New+York+NY+10022&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Lumina Realty office location">
+      </iframe>
+      <div class="map-info-card">
+        <strong>Visit Our Gallery</strong>
+        <p>Mon-Fri: 9:00 AM - 6:00 PM<br>Weekends by Appointment Only</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=405+Park+Avenue+New+York+NY+10022" target="_blank" rel="noopener">Get Directions →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">
+        <div class="logo">Lumina Realty</div>
+        <p>Curating the world's most exceptional real estate for the most discerning individuals.</p>
+      </div>
+      <div>
+        <h4>Directory</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="cookies.html">Cookie Settings</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/explore/tags/realestate/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/search/results/companies/?keywords=real%20estate" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Lumina Realty. Precision in Discovery.</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <button class="chat-fab" aria-label="Open AI Assistant">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+  </button>
+
+</body>
+</html>

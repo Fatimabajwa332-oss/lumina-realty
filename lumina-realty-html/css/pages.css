@@ -1,0 +1,42 @@
+/* ========================================
+   Simple content pages (legal, resources)
+   ======================================== */
+
+.content-page {
+  padding: 56px 0 80px;
+  max-width: 780px;
+}
+
+.content-page h1 {
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.content-page .updated {
+  font-size: 13px;
+  color: var(--text-body);
+  margin-bottom: 32px;
+}
+
+.content-page h2 {
+  font-size: 20px;
+  margin: 32px 0 12px;
+}
+
+.content-page p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.content-page ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.content-page li {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 6px;
+}
