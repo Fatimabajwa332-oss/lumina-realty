@@ -3,7 +3,7 @@
 // Now connected to the real backend API (Node/Express + MySQL)
 // ========================================
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://perpetual-smile-production-9c17.up.railway.app/api';
 
 document.addEventListener('DOMContentLoaded', async () => {
 
